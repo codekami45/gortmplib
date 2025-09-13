@@ -16,6 +16,9 @@ Features:
 
 * Read and write multiple video and audio tracks
 * Read and write tracks encoded with AV1, VP9, H265, H264, Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio, AC-3, G711 (PCMA, PCMU), LPCM
+* Support most Enhanced RTMP features
+* Support TLS encryption (RTMPS)
+* Support Diffie-hellman based encryption (RTMPE)
 
 Current limitations:
 
