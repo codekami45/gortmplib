@@ -59,7 +59,3 @@ Current limitations:
 * [gortsplib](https://github.com/bluenviron/gortsplib)
 * [gohlslib](https://github.com/bluenviron/gohlslib)
 * [mediacommon](https://github.com/bluenviron/mediacommon)
-* [pion/sdp (SDP library used internally)](https://github.com/pion/sdp)
-* [pion/rtp (RTP library used internally)](https://github.com/pion/rtp)
-* [pion/rtcp (RTCP library used internally)](https://github.com/pion/rtcp)
-* [pion/srtp (SRTP library used internally)](https://github.com/pion/srtp)
