@@ -821,15 +821,19 @@ func (w *Writer) WriteMPEG4Audio(track format.Format, pts time.Duration, au []by
 
 // WriteMPEG1Audio writes a MPEG-1 Audio frame.
 func (w *Writer) WriteMPEG1Audio(track *format.MPEG1Audio, pts time.Duration, frame []byte) error {
+	var h mpeg1audio.FrameHeader
+	err := h.Unmarshal(frame)
+	if err != nil {
+		return err
+	}
+
+	if h.MPEG2 || h.Layer != 3 {
+		return fmt.Errorf("RTMP only supports MPEG-1 layer 3 audio")
+	}
+
 	id := w.audioTrackToID[track]
 
 	if id == 0 {
-		var h mpeg1audio.FrameHeader
-		err := h.Unmarshal(frame)
-		if err != nil {
-			return err
-		}
-
 		rate, ok := audioRateIntToRTMP(h.SampleRate)
 		if !ok {
 			return fmt.Errorf("unsupported sample rate: %v", h.SampleRate)
