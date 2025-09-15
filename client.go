@@ -7,7 +7,7 @@ package gortmplib
 
 import (
 	"context"
-	ctls "crypto/tls"
+	"crypto/tls"
 	"errors"
 	"fmt"
 	"net"
@@ -141,7 +141,7 @@ type dialer interface {
 // Client is a client-side RTMP connection.
 type Client struct {
 	URL       *url.URL
-	TLSConfig *ctls.Config
+	TLSConfig *tls.Config
 	Publish   bool
 
 	nconn         net.Conn
@@ -169,7 +169,7 @@ func (c *Client) initialize2(ctx context.Context) error {
 	if c.URL.Scheme == "rtmp" {
 		dial = &net.Dialer{}
 	} else {
-		dial = &ctls.Dialer{Config: c.TLSConfig}
+		dial = &tls.Dialer{Config: c.TLSConfig}
 	}
 
 	var err error
