@@ -3,7 +3,7 @@ package message
 import (
 	"fmt"
 
-	"github.com/bluenviron/gortmplib/pkg/rawmessage"
+	"github.com/codekami45/gortmplib/pkg/rawmessage"
 )
 
 // VideoExSequenceEnd is a sequence end extended message.

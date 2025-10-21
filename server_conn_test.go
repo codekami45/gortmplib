@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/bluenviron/gortmplib/pkg/amf0"
-	"github.com/bluenviron/gortmplib/pkg/bytecounter"
-	"github.com/bluenviron/gortmplib/pkg/handshake"
-	"github.com/bluenviron/gortmplib/pkg/message"
+	"github.com/codekami45/gortmplib/pkg/amf0"
+	"github.com/codekami45/gortmplib/pkg/bytecounter"
+	"github.com/codekami45/gortmplib/pkg/handshake"
+	"github.com/codekami45/gortmplib/pkg/message"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 )

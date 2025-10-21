@@ -2,7 +2,7 @@
 package message
 
 import (
-	"github.com/bluenviron/gortmplib/pkg/rawmessage"
+	"github.com/codekami45/gortmplib/pkg/rawmessage"
 )
 
 const (

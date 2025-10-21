@@ -3,7 +3,7 @@ package message //nolint:dupl
 import (
 	"fmt"
 
-	"github.com/bluenviron/gortmplib/pkg/rawmessage"
+	"github.com/codekami45/gortmplib/pkg/rawmessage"
 )
 
 // UserControlSetBufferLength is a user control message.
