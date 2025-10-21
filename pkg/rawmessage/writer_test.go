@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bluenviron/gortmplib/pkg/bytecounter"
-	"github.com/bluenviron/gortmplib/pkg/chunk"
+	"github.com/codekami45/gortmplib/pkg/bytecounter"
+	"github.com/codekami45/gortmplib/pkg/chunk"
 	"github.com/stretchr/testify/require"
 )
 

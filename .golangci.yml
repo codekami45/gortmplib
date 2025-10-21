@@ -56,11 +56,11 @@ linters:
       - (github.com/datarhei/gosrt.Conn).Close
       - (github.com/datarhei/gosrt.Conn).SetReadDeadline
       - (github.com/datarhei/gosrt.Conn).SetWriteDeadline
-      - (*github.com/bluenviron/gortsplib/v5.Client).Close
-      - (*github.com/bluenviron/gortsplib/v5.Server).Close
-      - (*github.com/bluenviron/gortsplib/v5.ServerSession).Close
-      - (*github.com/bluenviron/gortsplib/v5.ServerStream).Close
-      - (*github.com/bluenviron/gortsplib/v5.ServerConn).Close
+      - (*github.com/codekami45/gortsplib/v5.Client).Close
+      - (*github.com/codekami45/gortsplib/v5.Server).Close
+      - (*github.com/codekami45/gortsplib/v5.ServerSession).Close
+      - (*github.com/codekami45/gortsplib/v5.ServerStream).Close
+      - (*github.com/codekami45/gortsplib/v5.ServerConn).Close
 
     govet:
       enable-all: true

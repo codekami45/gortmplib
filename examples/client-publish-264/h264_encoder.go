@@ -6,7 +6,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/bluenviron/mediacommon/v2/pkg/codecs/h264"
+	"github.com/codekami45/mediacommon/v2/pkg/codecs/h264"
 )
 
 // #cgo pkg-config: libavcodec libavutil libswscale

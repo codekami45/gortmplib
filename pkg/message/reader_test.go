@@ -8,9 +8,9 @@ import (
 	"github.com/abema/go-mp4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortmplib/pkg/amf0"
-	"github.com/bluenviron/gortmplib/pkg/bytecounter"
-	"github.com/bluenviron/mediacommon/v2/pkg/codecs/mpeg4audio"
+	"github.com/codekami45/gortmplib/pkg/amf0"
+	"github.com/codekami45/gortmplib/pkg/bytecounter"
+	"github.com/codekami45/mediacommon/v2/pkg/codecs/mpeg4audio"
 )
 
 var readWriterCases = []struct {

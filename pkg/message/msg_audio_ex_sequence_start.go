@@ -3,8 +3,8 @@ package message
 import (
 	"fmt"
 
-	"github.com/bluenviron/gortmplib/pkg/rawmessage"
-	"github.com/bluenviron/mediacommon/v2/pkg/codecs/mpeg4audio"
+	"github.com/codekami45/gortmplib/pkg/rawmessage"
+	"github.com/codekami45/mediacommon/v2/pkg/codecs/mpeg4audio"
 )
 
 // AudioExSequenceStart is a sequence start extended message.

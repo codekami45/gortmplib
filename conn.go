@@ -1,7 +1,7 @@
 package gortmplib
 
 import (
-	"github.com/bluenviron/gortmplib/pkg/message"
+	"github.com/codekami45/gortmplib/pkg/message"
 )
 
 // Conn is implemented by Client and ServerConn.

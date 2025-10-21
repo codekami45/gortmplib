@@ -1,8 +1,8 @@
 package message
 
 import (
-	"github.com/bluenviron/gortmplib/pkg/amf0"
-	"github.com/bluenviron/gortmplib/pkg/rawmessage"
+	"github.com/codekami45/gortmplib/pkg/amf0"
+	"github.com/codekami45/gortmplib/pkg/rawmessage"
 )
 
 // DataAMF0 is a AMF0 data message.

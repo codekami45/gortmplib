@@ -3,8 +3,8 @@ package message
 import (
 	"io"
 
-	"github.com/bluenviron/gortmplib/pkg/bytecounter"
-	"github.com/bluenviron/gortmplib/pkg/rawmessage"
+	"github.com/codekami45/gortmplib/pkg/bytecounter"
+	"github.com/codekami45/gortmplib/pkg/rawmessage"
 )
 
 // Writer is a message writer.

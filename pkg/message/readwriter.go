@@ -3,7 +3,7 @@ package message
 import (
 	"io"
 
-	"github.com/bluenviron/gortmplib/pkg/bytecounter"
+	"github.com/codekami45/gortmplib/pkg/bytecounter"
 )
 
 // ReadWriter is a message reader/writer.

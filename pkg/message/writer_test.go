@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortmplib/pkg/bytecounter"
+	"github.com/codekami45/gortmplib/pkg/bytecounter"
 )
 
 func TestWriter(t *testing.T) {

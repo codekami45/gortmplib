@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/bluenviron/gortmplib"
-	"github.com/bluenviron/gortsplib/v5/pkg/format"
+	"github.com/codekami45/gortmplib"
+	"github.com/codekami45/gortsplib/v5/pkg/format"
 )
 
 // This example shows how to:

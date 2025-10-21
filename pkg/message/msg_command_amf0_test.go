@@ -3,8 +3,8 @@ package message
 import (
 	"testing"
 
-	"github.com/bluenviron/gortmplib/pkg/amf0"
-	"github.com/bluenviron/gortmplib/pkg/rawmessage"
+	"github.com/codekami45/gortmplib/pkg/amf0"
+	"github.com/codekami45/gortmplib/pkg/rawmessage"
 )
 
 func BenchmarkCommandAMF0Marshal(b *testing.B) {

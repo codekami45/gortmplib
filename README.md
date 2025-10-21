@@ -1,12 +1,12 @@
 # gortmplib
 
-[![Test](https://github.com/bluenviron/gortmplib/actions/workflows/test.yml/badge.svg)](https://github.com/bluenviron/gortmplib/actions/workflows/test.yml)
-[![Lint](https://github.com/bluenviron/gortmplib/actions/workflows/lint.yml/badge.svg)](https://github.com/bluenviron/gortmplib/actions/workflows/lint.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bluenviron/gortmplib)](https://goreportcard.com/report/github.com/bluenviron/gortmplib)
-[![CodeCov](https://codecov.io/gh/bluenviron/gortmplib/branch/main/graph/badge.svg)](https://app.codecov.io/gh/bluenviron/gortmplib/tree/main)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/bluenviron/gortmplib)](https://pkg.go.dev/github.com/bluenviron/gortmplib#pkg-index)
+[![Test](https://github.com/codekami45/gortmplib/actions/workflows/test.yml/badge.svg)](https://github.com/codekami45/gortmplib/actions/workflows/test.yml)
+[![Lint](https://github.com/codekami45/gortmplib/actions/workflows/lint.yml/badge.svg)](https://github.com/codekami45/gortmplib/actions/workflows/lint.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/codekami45/gortmplib)](https://goreportcard.com/report/github.com/codekami45/gortmplib)
+[![CodeCov](https://codecov.io/gh/codekami45/gortmplib/branch/main/graph/badge.svg)](https://app.codecov.io/gh/codekami45/gortmplib/tree/main)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/codekami45/gortmplib)](https://pkg.go.dev/github.com/codekami45/gortmplib#pkg-index)
 
-RTMP client and server library for the Go programming language, forked from [MediaMTX](https://github.com/bluenviron/mediamtx).
+RTMP client and server library for the Go programming language, forked from [MediaMTX](https://github.com/codekami45/mediamtx).
 
 This was created to provide [Enhanced RTMP](https://veovera.org/docs/enhanced/enhanced-rtmp-v2) features, like multiple video/audio tracks and additional codecs.
 
@@ -40,7 +40,7 @@ Current limitations:
 
 ## API Documentation
 
-[Click to open the API Documentation](https://pkg.go.dev/github.com/bluenviron/gortmplib#pkg-index)
+[Click to open the API Documentation](https://pkg.go.dev/github.com/codekami45/gortmplib#pkg-index)
 
 ## Specifications
 
@@ -50,12 +50,12 @@ Current limitations:
 |[FLV](https://veovera.org/docs/legacy/video-file-format-v10-1-spec.pdf)|RTMP|
 |[RTMP](https://veovera.org/docs/legacy/rtmp-v1-0-spec.pdf)|RTMP|
 |[Enhanced RTMP v2](https://veovera.org/docs/enhanced/enhanced-rtmp-v2)|RTMP|
-|[Codec specifications](https://github.com/bluenviron/mediacommon#specifications)|codecs|
+|[Codec specifications](https://github.com/codekami45/mediacommon#specifications)|codecs|
 |[Golang project layout](https://github.com/golang-standards/project-layout)|project layout|
 
 ## Related projects
 
-* [MediaMTX](https://github.com/bluenviron/mediamtx)
-* [gortsplib](https://github.com/bluenviron/gortsplib)
-* [gohlslib](https://github.com/bluenviron/gohlslib)
-* [mediacommon](https://github.com/bluenviron/mediacommon)
+* [MediaMTX](https://github.com/codekami45/mediamtx)
+* [gortsplib](https://github.com/codekami45/gortsplib)
+* [gohlslib](https://github.com/codekami45/gohlslib)
+* [mediacommon](https://github.com/codekami45/mediacommon)
